@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pocketsmith/nativescript-loading-indicator.git"
+    "url": "git://github.com/leocaseiro/nativescript-loading-indicator-new.git"
   },
   "bugs": {
-    "url": "https://github.com/pocketsmith/nativescript-loading-indicator/issues"
+    "url": "https://github.com/leocaseiro/nativescript-loading-indicator-new/issues"
   },
-  "homepage": "https://github.com/pocketsmith/nativescript-loading-indicator"
+  "homepage": "https://github.com/leocaseiro/nativescript-loading-indicator-new"
 }

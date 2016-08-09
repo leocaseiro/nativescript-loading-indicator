@@ -1,13 +1,27 @@
+
 {
-  "name": "nativescript-loading-indicator",
+  "name": "nativescript-loading-indicator-new",
   "version": "2.0.1",
   "description": "A NativeScript plugin for showing an overlayed loading indicator.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pocketsmith/nativescript-loading-indicator.git"
+    "url": "https://github.com/pocketsmith/nativescript-loading-indicator-new.git"
   },
   "main": "loading-indicator.js",
-  "author": "PocketSmith",
+  "typings": "index.d.ts",
+  "author": {
+    "name": "PocketSmith"
+  },
+  "contributors": [
+    {
+      "name": "Nathan Walker <NathanWalker>",
+      "email": "walkerrunpdx@gmail.com"
+    },
+    {
+      "name": "Leo Caseiro <leocaseiro>",
+      "email": "leobok@gmail.com"
+    }
+  ],
   "keywords": [
     "NativeScript",
     "loading-indicator",
@@ -20,23 +34,23 @@
   ],
   "nativescript": {
     "platforms": {
-      "android": "0.0.1",
-      "ios": "0.0.1"
+      "android": "2.1.1",
+      "ios": "2.1.1"
     }
   },
   "scripts": {
     "build": "tsc",
     "demo.ios": "npm run preparedemo; cd demo; tns emulate ios",
     "demo.android": "npm run preparedemo; cd demo; tns run android",
-    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-loading-indicator; tns plugin add ..; tns install",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-loading-indicator-new; tns plugin add ..; tns install",
     "setup": "cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/pocketsmith/nativescript-loading-indicator/blob/master/LICENSE"
+    "url": "https://github.com/pocketsmith/nativescript-loading-indicator-new/blob/master/LICENSE"
   },
   "bugs": {
-    "url": "https://github.com/pocketsmith/nativescript-loading-indicator/issues"
+    "url": "https://github.com/pocketsmith/nativescript-loading-indicator-new/issues"
   },
-  "homepage": "https://github.com/pocketsmith/nativescript-loading-indicator"
+  "homepage": "https://github.com/pocketsmith/nativescript-loading-indicator-new"
 }

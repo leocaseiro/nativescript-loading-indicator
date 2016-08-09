@@ -1,5 +1,5 @@
 import {Observable} from "data/observable";
-import {LoadingIndicator} from "nativescript-loading-indicator";
+import {LoadingIndicator} from "nativescript-loading-indicator-new";
 
 export class LoadingAndroidTest extends Observable {
   private indicator: LoadingIndicator;
